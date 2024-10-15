@@ -1,6 +1,6 @@
-import { cart, addToCart, removeFromCart, minsQuantity } from '../data/cart.js';
-import { products } from '../data/products.js';
-import { formatCurrency } from './utils/money.js';
+import { cart, addToCart, removeFromCart, minsQuantity } from './cart.js';
+import { products } from './products.js';
+import { formatCurrency } from './money.js';
 // ==============================================================
 let cartImg = document.createElement("img")
 cartImg.setAttribute("src", "./thumbnail/illustration-empty-cart.svg")
