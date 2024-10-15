@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <title>Web site + cart</title>
+</head>
+
+<body>
+  <div class="backdropBox">
+    <div class="holebox">
+      <div class="headt">
+        <div class="finshedheadText"></div>
+      </div>
+      <div class="confirmbox">
+        <div class="confirmOrderMainBox"></div>
+      </div>
+      <div class="bottombox">
+        <div class="boxTotal"></div>
+        <div class="startneworderbtn"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mainCon">
+    <div id="sideContain">
+      <h3 class="cart-quantity">
+        Your Cart
+        <span class="hype">(<span class="js-cart-quantity">0</span>)</span>
+      </h3>
+      <div>
+        <div class="cartitems">
+          <div class="insideCartItems">
+            <div class="allInfo"></div>
+          </div>
+          <div id="imgemp"></div>
+        </div>
+      </div>
+      <div class="fixedbottom">
+        <div id="cartinfo">
+          <div class="grandTotal"></div>
+        </div>
+        <div class="confirmOrder"></div>
+      </div>
+    </div>
+
+    <div class="junk">
+      <header>
+        <h1 class="headName">Desserts</h1>
+      </header>
+      <div class="js-info" id="contain">
+        <div id="mainBoxes">
+          <div class="buttonBox">
+            <div class="newMinsBtn-${product.productId}">
+              <div class="newMinsBtn"></div>
+              <div class="newPlusBtn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src=".//scripts/productScript.js"></script>
+</body>
+
+</html>
