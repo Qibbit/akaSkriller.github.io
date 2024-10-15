@@ -40,5 +40,5 @@ I'm in the beginning of learning HTML, CSS and JavaScript. Hoping to be a full s
 
 ## Acknowledgments
 
-To Cuba at the second chance program cenert. For helping me see that all is possible.
+To Cuba at the second chance program center. For helping me see that all is possible.
 And to the community of next chapter for the support.
